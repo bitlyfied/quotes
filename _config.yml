@@ -1,8 +1,12 @@
 url: "https://bitlyfied.github.io"
-baseurl: "/quotes" # Replace with your actual repository name
+baseurl: "/quotes"
 
 permalink: /:title/
 
+# Use a minimal theme
+theme: jekyll-theme-minimal
+
+# Default layout for all pages
 defaults:
   - scope:
       path: ""
@@ -11,3 +15,13 @@ defaults:
 
 plugins:
   - jekyll-optional-front-matter
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
