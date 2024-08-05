@@ -18,7 +18,7 @@ Just as the client is instructed to enter into a receptive state of mindfulness 
 
 ## Attunement to the Client and the Relational Field
 
-Once connected with their self-experience, the therapist seeks to attune to the client’s experience. Throughout the medicine session, clients are invited to direct their attention inward, with the option of listening to the playlist, and using headphones and eye shades to block out external stimuli.
+Once connected with their self-experience, the therapist seeks to attune to the client’s experience.
 
 In these sessions, the aim is to let the client’s inner healing intelligence guide the process; the therapist seeks to be non-directive and follow the client’s lead. As such, the therapist must often rely on non-verbal perceptive and intuitive capacities rather than dialectical engagements, such as interpretation or meaning making.
 

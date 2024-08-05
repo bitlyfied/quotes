@@ -24,8 +24,7 @@ body {
 
 #quote-content {
   background-color: var(--quote-bg-color);
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 8px;
+  border-radius: 18px;
   padding: 3rem 4rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
@@ -59,6 +58,7 @@ blockquote {
   .container {
     width: 95%;
     padding: 0.5rem;
+    margin-top: 2rem;
   }
 
   #quote-content {
