@@ -24,7 +24,7 @@ In these sessions, the aim is to let the client’s inner healing intelligence g
 
 Music is also a source of support for the therapist in the psychedelic therapy session. **To the extent that both the therapist and the client are open to allowing the music to move them, a sharing of vibrational frequencies is possible, helping the therapist to stay attuned and in sync with the client’s process.**
 
-It is helpful to stay open to ways in which the beat, the melody, and **the rhythm of the music are tuning and calibrating the corporeal instruments of the psyche–soma of both the therapist and the client**.
+It is helpful to stay open to ways in which **the beat, the melody, and the rhythm of the music are tuning and calibrating the corporeal instruments of the psyche–soma of both the therapist and the client**.
 
 > In music theory, the term resonance describes the phenomenon of the sharing of vibrational frequencies between two separate bodies. For example, when two guitars are placed in close proximity to each other and a note is played only on one of them, the other will resonate, humming in the same note.
 
