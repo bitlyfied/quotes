@@ -30,7 +30,20 @@
   </head>
   <body>
     <div class="container">
-      <div id="quote-content">{{ content }}</div>
+      <div id="quote-content">
+        {{ content }}
+        <div class="quote-metadata">
+          {% if page.author %}
+          <p class="author">— {{ page.author }}</p>
+          {% endif %} {% if page.source or page.chapter %}
+          <p class="source">
+            {% if page.source %}{{ page.source }}{% endif %} {% if page.source
+            and page.chapter %}, {% endif %} {% if page.chapter %}{{
+            page.chapter }}{% endif %}
+          </p>
+          {% endif %}
+        </div>
+      </div>
     </div>
   </body>
 </html>

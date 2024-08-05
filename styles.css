@@ -1,39 +1,128 @@
+:root {
+  --main-bg-color: #f8f8f8;
+  --text-color: #333;
+  --quote-bg-color: #fff;
+  --quote-border-color: #e0e0e0;
+  --metadata-color: #666;
+}
+
 body {
   font-family: "Merriweather", serif;
-  line-height: 1.6;
-  color: #333;
-  background-color: #fff;
+  line-height: 1.8;
+  color: var(--text-color);
+  background-color: var(--main-bg-color);
   margin: 0;
   padding: 0;
 }
 
 .container {
   max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 1rem;
 }
 
 #quote-content {
-  font-size: 1.2rem;
-  text-align: justify;
+  background-color: var(--quote-bg-color);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 3rem 4rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1:first-child {
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 blockquote {
-  border-left: 4px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+  border-left: 4px solid var(--quote-border-color);
+  margin: 1.5rem 0;
+  padding: 0.5rem 1rem;
+  font-style: italic;
 }
 
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 0.5rem;
+  }
+
+  #quote-content {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p,
+  blockquote {
+    font-size: 0.9rem;
+  }
 }
 
-blockquote p {
-  display: inline;
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p,
+  blockquote {
+    font-size: 1.1rem;
+  }
+}
+
+.quote-metadata {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--quote-border-color);
+  font-style: italic;
+  color: var(--metadata-color);
+  text-align: right;
+  position: relative;
+}
+
+.quote-metadata p {
+  margin: 0.5rem 0;
+}
+
+.quote-metadata .author {
+  font-weight: bold;
+}
+
+.quote-metadata .source {
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .quote-metadata {
+    margin-top: 1.5rem;
+    padding-top: 0.75rem;
+  }
+
+  .quote-metadata::before {
+    width: 70%;
+  }
+
+  .quote-metadata .source {
+    font-size: 0.8em;
+  }
 }
