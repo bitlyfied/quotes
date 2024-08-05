@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }}</title>
+    <meta
+      name="description"
+      content="{{ page.excerpt | strip_html | truncate: 160 }}"
+    />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta
+      property="og:description"
+      content="{{ page.excerpt | strip_html | truncate: 160 }}"
+    />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta
+      property="og:image"
+      content="{{ site.url }}/images/default-og-image.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="quote-content">{{ content }}</div>
+    </div>
+  </body>
+</html>

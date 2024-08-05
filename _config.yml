@@ -1,0 +1,10 @@
+url: "https://bitlyfied.github.io/your-repo-name"
+baseurl: ""
+
+permalink: /:title/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "quote"
