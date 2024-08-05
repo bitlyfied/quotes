@@ -1,5 +1,5 @@
 url: "https://bitlyfied.github.io"
-baseurl: "/your-repo-name" # Replace with your actual repository name
+baseurl: "/quotes" # Replace with your actual repository name
 
 permalink: /:title/
 
