@@ -55,6 +55,17 @@ blockquote {
 }
 
 @media (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+
+  #quote-content {
+    background-color: white;
+    padding: 3rem 4rem;
+    box-shadow: none;
+    border: none;
+  }
+
   .container {
     width: 95%;
     padding: 0.5rem;
@@ -63,10 +74,6 @@ blockquote {
 
   #quote-content {
     padding: 1rem;
-  }
-
-  h1 {
-    font-size: 1.5rem;
   }
 
   p,
