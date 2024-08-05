@@ -1,5 +1,5 @@
-url: "https://bitlyfied.github.io/your-repo-name"
-baseurl: ""
+url: "https://bitlyfied.github.io"
+baseurl: "/your-repo-name" # Replace with your actual repository name
 
 permalink: /:title/
 
@@ -8,3 +8,6 @@ defaults:
       path: ""
     values:
       layout: "quote"
+
+plugins:
+  - jekyll-optional-front-matter

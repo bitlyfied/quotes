@@ -17,17 +17,20 @@ layout: default
       property="og:description"
       content="{{ page.excerpt | strip_html | truncate: 160 }}"
     />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta
+      property="og:url"
+      content="{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+    />
     <meta
       property="og:image"
-      content="{{ site.url }}/images/default-og-image.jpg"
+      content="{{ site.url }}{{ site.baseurl }}/images/default-og-image.jpg"
     />
     <meta name="twitter:card" content="summary_large_image" />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css" />
   </head>
   <body>
     <div class="container">
