@@ -31,7 +31,7 @@ body {
 
 h1 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
 }
 
 h1:first-child {
@@ -97,6 +97,7 @@ blockquote {
 
   h1 {
     font-size: 2.5rem;
+    margin-bottom: 2rem;
   }
 
   p,
@@ -110,13 +111,18 @@ blockquote {
 }
 
 .quote-metadata {
-  margin-top: 2rem;
-  padding-top: 1rem;
+  margin-top: 3rem;
+  padding-top: 3rem;
   border-top: 1px solid var(--quote-border-color);
   font-style: italic;
   color: var(--metadata-color);
   text-align: right;
   position: relative;
+  padding-right: 3rem;
+}
+
+.quote-metadata p {
+  text-align: right;
 }
 
 .quote-metadata p {
@@ -133,8 +139,9 @@ blockquote {
 
 @media (max-width: 600px) {
   .quote-metadata {
-    margin-top: 1.5rem;
-    padding-top: 0.75rem;
+    margin-top: 2rem;
+    padding-top: 1.75rem;
+    padding-right: 2rem;
   }
 
   .quote-metadata::before {
